@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.example.week6daily3homeassignment.CustomEditText
+        android:id="@+id/customEditTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/redTextColor"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:hint="Type Here"
+        android:textAlignment="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <com.example.week6daily3homeassignment.Rectangle
+        android:id="@+id/rectangleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:fillColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/startAnimationButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animate start"
+        android:onClick="onClick"/>
+    <com.example.week6daily3homeassignment.IconsCompoundView
+        android:id="@+id/iconsCompoundViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></com.example.week6daily3homeassignment.IconsCompoundView>
+</LinearLayout>
